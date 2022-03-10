@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "server": "nodemon index.js",
     "test": "cross-env NODE_ENV=testing jest --verbose --runInBand"
   },
   "devDependencies": {
@@ -22,6 +23,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
+    "http-server": "^14.1.0",
     "nanoid": "^3.3.1"
   }
 }
